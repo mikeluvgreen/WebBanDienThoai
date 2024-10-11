@@ -17,7 +17,14 @@ namespace WebBanDienThoai.Controllers
         {
             return View();
         }
-
+        public IActionResult Cart()
+        {
+            return View();
+        }
+        public IActionResult SanPham()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
